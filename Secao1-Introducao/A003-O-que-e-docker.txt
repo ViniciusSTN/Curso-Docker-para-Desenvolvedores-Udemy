@@ -1,0 +1,12 @@
+Docker 
+
+é um software que reduz a complexidaded de setup de aplicações
+
+onde configuramos containers, que são como servidores para rodar nossas aplicações
+
+criar ambientes independentes e que funcionam em diversos SO's
+
+deixa os projetos performaticos
+
+
+Obs.: Posso ter um container de linux no windows
