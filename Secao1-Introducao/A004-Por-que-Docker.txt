@@ -1,0 +1,8 @@
+Proporciona mais velocidade na configuração do ambiente de um dev e também na produção, pois podemos aproveitar os containers
+
+Pouco tempo gasto na manutenção, continers são executados como configurados
+
+Performance para executar aplicações, mais performático que uma VM
+
+Nos livra da Matrix from Hell -> 
+

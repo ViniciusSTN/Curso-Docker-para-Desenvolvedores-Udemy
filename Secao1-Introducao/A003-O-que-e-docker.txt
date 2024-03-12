@@ -1,6 +1,6 @@
 Docker 
 
-é um software que reduz a complexidaded de setup de aplicações
+é um software que reduz a complexidade de setup de aplicações
 
 onde configuramos containers, que são como servidores para rodar nossas aplicações
 
