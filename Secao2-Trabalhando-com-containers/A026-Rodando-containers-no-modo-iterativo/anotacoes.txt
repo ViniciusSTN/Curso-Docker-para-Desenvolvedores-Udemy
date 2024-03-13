@@ -1,0 +1,7 @@
+Deixar rodando no terminal:
+    -t
+
+Com isso será possível executar comandos disponiveis no container (Nem todas possuem)
+
+docker run -it node
+Da pra rodar comandos JS -> ex: 2 + 2
