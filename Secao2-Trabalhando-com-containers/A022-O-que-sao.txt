@@ -1,0 +1,9 @@
+Containers:
+
+Um pacote de código que pode executar uma ação, por exemplo: rodar uma aplicação de Node.js, PHP, Python, etc.
+
+Os nossos projetos são executados dentro dos containers que criamos
+
+Containers utilizam imagens para poderem ser executados
+
+Multiplos containers podem executar juntos, exemplo: um para PHP e outro para MySQL
