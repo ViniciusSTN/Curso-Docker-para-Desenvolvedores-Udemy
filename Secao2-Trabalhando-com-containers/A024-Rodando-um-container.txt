@@ -1,0 +1,9 @@
+Onde encontrar imagens?
+
+Site:
+https://hub.docker.com
+
+docker run <imagem>
+
+docker run -it ubuntu
+exit
