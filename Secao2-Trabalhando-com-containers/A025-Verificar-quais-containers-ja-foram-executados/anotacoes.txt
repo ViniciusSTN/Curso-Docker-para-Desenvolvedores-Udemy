@@ -1,0 +1,5 @@
+docker ps   ou  docker container ls:
+    Containers executando agora
+
+flag -a     ou      docker container ls -a:
+    Containers já executados
