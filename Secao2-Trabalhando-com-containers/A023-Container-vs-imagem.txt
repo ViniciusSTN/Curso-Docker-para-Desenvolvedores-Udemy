@@ -1,0 +1,5 @@
+São recursos fundamentais do docker
+
+Imagem é o 'projeto' que será executado pelo container, todas as instruções estarão declaradas nela
+
+Container é o docker rodando alguma Imagem
