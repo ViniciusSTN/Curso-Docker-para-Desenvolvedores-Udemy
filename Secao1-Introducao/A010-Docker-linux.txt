@@ -1,0 +1,8 @@
+Escolher a versão baseada na distribuição
+
+https://docs.docker.com/desktop/install/linux-install/
+
+Após instalar, executar:
+sudo docker ps
+sudo docker version
+Se estiver tudo certo, pode continuar
