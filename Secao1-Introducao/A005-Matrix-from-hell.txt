@@ -1,0 +1,5 @@
+Instalar os projetos em cada máquina, daria problema para fazer manutenções -> demoraria muito tempo
+
+Para resolver isso: Docker
+
+Configurar apenas um ambiente para cada parte do projeto e repassar as imagens para as outras máquinas
