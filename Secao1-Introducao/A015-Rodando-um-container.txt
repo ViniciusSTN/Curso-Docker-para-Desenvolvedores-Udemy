@@ -1,0 +1,17 @@
+Não usar ps
+Usar: 
+    docker container ls
+    docker image ls
+
+------------------
+
+Testar o docker utilizando imagem real
+
+Para rodar containers:
+    docker run
+
+
+comando:
+docker run docker/whalesay cowsay Hello_World
+
+Sempre qie executar um container, o docker analisa se aquela imagem está em cache, se já tiver, será muito mais rápido para executar

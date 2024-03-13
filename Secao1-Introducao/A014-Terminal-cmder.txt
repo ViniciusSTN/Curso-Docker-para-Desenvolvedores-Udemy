@@ -1,0 +1,4 @@
+shell e git bash pode dar problema ao executar comandos docker
+
+baixar cmder:
+https://cmder.app
