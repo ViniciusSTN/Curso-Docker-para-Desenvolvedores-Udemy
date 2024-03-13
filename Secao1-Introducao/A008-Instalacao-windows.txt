@@ -1,0 +1,10 @@
+https://docs.docker.com/desktop/install/windows-install/
+
+Docker desktop -> possui interface gráfica no windows, mas vamos aprender no terminal
+
+Há duas versões do docker no windows, depende de qual a versão do windows
+
+Após instalar, executar:
+docker ps 
+docker version
+Se estiver tudo certo, pode continuar
