@@ -1,0 +1,6 @@
+Remover:
+docker rm <id ou nome>
+
+se o container estiver rodando ainda, usar flag -f (force)
+docker rm <nome ou id> -f
+
