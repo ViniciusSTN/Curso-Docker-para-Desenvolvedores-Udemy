@@ -1,0 +1,11 @@
+Background -> Não fica ocupando o terminal
+
+
+flag -d (detached)
+
+
+podemos usar o nginx (servidor web)para testar
+
+docker run -d nginx
+
+docker stop <nome>
