@@ -1,0 +1,6 @@
+docker stop <id ou nome>
+
+verificar os que estão rodando:
+docker container ls     ou     docker ps
+
+verificar os que estão parados, tag -a
