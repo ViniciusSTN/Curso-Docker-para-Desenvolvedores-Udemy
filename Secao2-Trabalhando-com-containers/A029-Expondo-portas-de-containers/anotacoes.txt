@@ -1,0 +1,22 @@
+ container do docker é isolado, é preciso expor portas
+
+flag:
+    -p <porta1:porta2>
+
+porta1 -> porta que estou expondo o pc
+porta2 -> porta que quero receber do container
+
+ex: 
+    -p 80:80
+
+---------------
+docker run -d -p 80:80 nginx
+
+Acessar o http://localhost no navegador
+
+http://localhost:80 e http://localhost é a mesma coisa, pois 80 é a porta padrão do navegador
+
+---------------
+docker run -d -p 3000:80 nginx
+
+Acessar o http://localhost:3000 no navegador
