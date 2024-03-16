@@ -1,0 +1,7 @@
+Iniciar um container parado
+docker start <id>
+
+Para listar os containers parados:
+docker container ls -a     ou  docker ps
+
+ele starta com as mesmas configurações que estavam anteriormente, ex: mesmas portas de saída, rodando em background, etc.
