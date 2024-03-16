@@ -1,0 +1,5 @@
+Verificar o que aconteceu em um container:
+docker logs <id ou nome>
+
+Para ficar monitorando, basta usar a tag -f (follow)
+docker logs -f <id ou nome>
