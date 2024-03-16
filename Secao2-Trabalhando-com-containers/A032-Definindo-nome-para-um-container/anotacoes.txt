@@ -1,0 +1,8 @@
+Caso nao colocar, aparecerá um nome aleatório
+
+Para definir um nome, usar flag:
+    -- name
+
+------------------------
+Exemplo:
+docker run -d -p 80:80 --name nginx_app nginx
