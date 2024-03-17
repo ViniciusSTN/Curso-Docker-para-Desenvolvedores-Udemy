@@ -1,0 +1,5 @@
+Remover imagem:
+docker rmi <imagem>
+
+Forçar remoção:
+    -f
