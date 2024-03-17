@@ -1,0 +1,5 @@
+Imagens são intruções para rodar dentro de um container
+
+Contém: Imagens base, diretório base, comandos a serem executados, porta da aplicação e etc.
+
+Instruções executadas em camadas -> se alterarmos uma camada, apenas a partir dela será executado novamente, o restante será guardado em cache
