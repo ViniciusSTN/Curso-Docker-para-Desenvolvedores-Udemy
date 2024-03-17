@@ -1,0 +1,3 @@
+Remover imagens, containers e networks que não estão sendo utilizados:
+docker system prune
+
