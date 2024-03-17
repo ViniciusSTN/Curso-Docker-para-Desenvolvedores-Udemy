@@ -1,0 +1,5 @@
+arquivo Dockerfile
+
+nessa aula foi criado um projeto node -> repositorio Projeto-Docker
+
+O arquivo Dockerfile executa em camadas, ou seja, o docker faz cache de tudo e quando algo for alterado, apenas a partir daquela camada (linha de código) será re-executado
