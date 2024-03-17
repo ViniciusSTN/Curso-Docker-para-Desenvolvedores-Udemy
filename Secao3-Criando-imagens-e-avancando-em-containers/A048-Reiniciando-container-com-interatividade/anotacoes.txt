@@ -1,0 +1,6 @@
+start interativo:
+docker start -i <container>
+
+
+ex:
+docker start -i meu_container
