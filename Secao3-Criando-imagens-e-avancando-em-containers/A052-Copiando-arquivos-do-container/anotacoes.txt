@@ -1,0 +1,10 @@
+Copiar:
+    docker cp <container>:<diretorio> <destino>
+
+----
+docker cp node_diferente:/src/app.js ./copia/
+----
+
+Com isso será possível copiar um arquivo de um container para minha máquina
+
+Exemplo de uso: Copiar um arquivo de log
