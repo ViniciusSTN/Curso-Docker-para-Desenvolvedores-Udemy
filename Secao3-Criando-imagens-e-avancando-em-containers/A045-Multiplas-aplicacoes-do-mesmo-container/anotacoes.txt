@@ -1,0 +1,1 @@
+usando a mesma imagem para servir varios containers, um em cada porta
