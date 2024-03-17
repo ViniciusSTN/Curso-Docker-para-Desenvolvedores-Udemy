@@ -1,0 +1,15 @@
+Nomear repositório:
+    docker tag <id ou nome da imagem> <novo nome>
+
+Também é possível adicionar tag (por padrão é latest)
+    docker tag <id ou nome da imagem> <novo nome>:<nome tag>
+Obs.: Isso é util para colocar versão da imagem
+
+--------
+
+docker tag cd4f3f87a528 minha_imagem:minha_tag
+
+--------
+
+Se a imagem estiver no hub.docker, seria possivel baixa-la especificando a versão, caso não especificar, virá a versão latest (ultima versão)
+Ex: docker pull minha_imagem:minha_tag
