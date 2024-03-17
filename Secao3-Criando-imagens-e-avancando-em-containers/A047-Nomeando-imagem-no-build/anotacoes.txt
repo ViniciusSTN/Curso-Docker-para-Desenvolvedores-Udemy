@@ -1,0 +1,9 @@
+Nomear a imagem na criação, flag:
+    -t
+
+Inserir nome e tag:
+    nome:tag
+
+
+ex:
+docker build -t meu_node:minha_tag_node .
