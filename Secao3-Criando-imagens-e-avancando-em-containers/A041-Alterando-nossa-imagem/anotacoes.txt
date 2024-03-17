@@ -1,0 +1,3 @@
+Fazer build em toda alteração (mais pra frente iremos aprender a atualizar sem precisar fazer build)
+
+OBS.: O id irá mudar, pois irá ser criado uma nova imagem que não substituirá a anterior
