@@ -1,0 +1,3 @@
+docker pull <imagem>
+
+A imagem será baixada e ficará em cache para utilizar mais rapidamente em containers

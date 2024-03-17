@@ -1,1 +1,7 @@
 Apenas as leyers abaixo da atualizada são refeitas, as acima permanecem em cache
+
+Ex: 
+    FROM node:14 
+    # versão 14 do node
+
+Nesse caso como foi alterado a primeira layer, tudo será rebuildado
