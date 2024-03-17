@@ -1,0 +1,19 @@
+docker build <diretorio da imagem>
+
+docker run <imagem>
+
+----------------------------
+exemplo:
+
+No terminal do projeto:
+    docker build .
+
+para listar as imagens:
+    docker image ls
+
+para criar um container com a nossa imagem:
+    docker run 369492ec3a99
+
+Mas precisamos expor uma porta, então precisamos pausar esse container e fazer outro expondo a porta
+
+    docker run -d -p 3000:3000 --name meu_node 369492ec3a99
