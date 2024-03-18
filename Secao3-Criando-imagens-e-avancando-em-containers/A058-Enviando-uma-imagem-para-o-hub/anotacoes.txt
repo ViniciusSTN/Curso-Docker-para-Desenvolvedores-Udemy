@@ -1,0 +1,16 @@
+Para enviar:
+docker push <imagem>
+
+Antes disso: estar logado e criar repositório
+
+--------
+Após criar o repositório no hub, ir no terminal do projeto e buildar atribuindo o nome do repositório criado
+
+No terminal:
+docker build -t viniciusstn/nodeteste .
+docker login
+docker push viniciusstn/nodeteste
+--------
+
+Com isso será possível fazer pull da imagem ou criar um novo container usando ela
+docker pull viniciusstn/nodeteste
