@@ -1,0 +1,4 @@
+Enviar imagens para o docker hub
+
+Para autenticar:
+docker login
