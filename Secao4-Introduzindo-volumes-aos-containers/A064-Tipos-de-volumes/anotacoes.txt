@@ -1,0 +1,5 @@
+Anonymous -> criados pela flag -v e com nome aleatorio
+
+named -> com nomes
+
+bind mounts -> salvar dados na maquina sem gerenciamento do dokcer
