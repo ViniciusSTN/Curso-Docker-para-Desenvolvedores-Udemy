@@ -1,0 +1,2 @@
+Logout do docker hub
+docker logout
