@@ -1,0 +1,2 @@
+Verificar todos os containers
+docker stats
