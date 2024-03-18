@@ -1,0 +1,4 @@
+Para atualizar uma imagem é só fazer o build dela novamente apenas alterando a tag e depois fazer o push
+
+docker build viniciusstn/nodeteste:novaversao .
+docker push viniciusstn/nodeteste:novaversao
