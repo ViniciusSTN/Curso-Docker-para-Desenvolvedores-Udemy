@@ -1,0 +1,2 @@
+Verificar informações de processamento
+docker top <container>
