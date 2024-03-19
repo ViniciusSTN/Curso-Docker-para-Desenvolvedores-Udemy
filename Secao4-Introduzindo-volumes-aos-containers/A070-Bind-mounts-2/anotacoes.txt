@@ -1,0 +1,10 @@
+Atualização do projeto com bind mount
+
+Podemos utilizar esta técnica para atualização em tempo real do projeto sem ter que refazer o build a cada atualização do mesmo.
+
+Para fazer isso, é só colocar o diretório do pc e o diretório do container sendo a raiz do projeto
+
+---------------------
+docker run -d -p 80:80 --name phpmessages_container -v C:\Users\vinic\Desktop\projeto-dokcer-2\:/var/www/html/ --rm b81ba8f89207
+
+Dessa forma, qualquer atualização em qualquer arquivo, irá persistir sem precisar fazer build
