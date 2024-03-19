@@ -1,0 +1,11 @@
+Tipos de redes (drivers)
+
+Bridge -> quando criar uma rede sem especificar o driver ele será um bridge (é o mais comum)
+
+host
+
+macvlan -> fornece um ip
+
+none -> container nao pode conectar em nada
+
+plugins
