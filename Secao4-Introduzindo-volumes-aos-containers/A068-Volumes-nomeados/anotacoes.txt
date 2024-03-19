@@ -1,0 +1,46 @@
+volume nomeado (named)
+docker run -v <nome do volume>:/<diretorio para salvar>
+
+IMPORTANTE: o diretorio deve ser o mesmo do WORKDIR no arquivo Dockerfile da imagem, nesse caso /var/www/html/messages
+
+Com isso mesmo excluindo o container, ainda será persistido os dados
+
+------------------------------------------
+docker run -d -p 80:80 --name phpmessages_container -v phpvolume:/var/www/html/messages --rm b81ba8f89207
+
+Acessar: http://localhost e enviar algo no input
+Acessar: http://localhost/messages/msg-0.txt
+
+Conferir:
+docker volume ls
+
+
+docker inspect phpmessages_container
+
+Irá aparecer:
+
+"Mounts": [                                                 
+    {                                                       
+        "Type": "volume",                                   
+        "Name": "phpvolume",                                
+        "Source": "/var/lib/docker/volumes/phpvolume/_data",
+        "Destination": "/var/www/html/messages",            
+        "Driver": "local",                                  
+        "Mode": "z",                                        
+        "RW": true,                                         
+        "Propagation": ""                                   
+    }                                                       
+],                                                     
+
+
+-----------------------------------
+OBS.: Após remover esse container e criar um novo, o conteúdo do volume persistiu
+
+docker run -d -p 81:80 --name phpmessages_container2 -v phpvolume:/var/www/html/messages --rm b81ba8f89207
+
+para testar:
+Deve ser o mesmo arquivo criado antes de remover o primeiro volume
+- Acessar: http://localhost:81/messages/msg-0.txt
+
+
+IMPORTANTE: Caso tiver dois containers rodando a mesma imagem e enviando arquivos para o mesmo diretório, qualquer arquivo postado no volume de um será acessível no outro container. Haverá comunicação entre containers.
