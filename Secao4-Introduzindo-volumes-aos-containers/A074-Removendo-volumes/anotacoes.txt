@@ -1,0 +1,2 @@
+Remover um volume:
+docker volume rm <nome>
