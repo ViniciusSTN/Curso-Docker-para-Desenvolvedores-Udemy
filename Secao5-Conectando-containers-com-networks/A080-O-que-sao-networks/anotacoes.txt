@@ -1,0 +1,3 @@
+Criadas separadas dos containers
+
+Existem drivers de rede
