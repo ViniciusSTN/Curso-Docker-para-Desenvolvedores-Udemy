@@ -1,0 +1,1 @@
+O container persiste os dados mesmo parando (stop), mas caso ele for removido, os dados também serão
