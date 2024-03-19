@@ -1,0 +1,9 @@
+Bind mounts
+Volume que fica em um diretório que especificamos
+Não criamos um volume em sí, apenas apontamos um diretório
+
+Comando:
+    docker run -v <diretorio para salvar no pc>:<diretorio que recebe dados do container>
+
+----------------------------------------
+docker run -d -p 80:80 --name phpmessages_container -v C:\Users\vinic\Desktop\projeto-dokcer-2\messages:/var/www/html/messages --rm b81ba8f89207
