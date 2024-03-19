@@ -1,0 +1,5 @@
+Podemos criar um volume manualmente
+docker volume create <nome>
+
+É possivel aproveitar esse volume em um container
+docker run -v volume_criado:/var/www/html/ <imagem>
