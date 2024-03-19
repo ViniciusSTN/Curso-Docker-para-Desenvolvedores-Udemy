@@ -1,0 +1,25 @@
+Volumes anonimos (anonymous)
+
+docker run -v /<diretorio para salvar>
+
+Listas os volumes
+docker volume ls
+
+OBS.: O volume anônimo referencia o próprio container, então não é possível persistir dados com ele, o que é de certa forma inútil
+
+-------------------------
+docker run -d -p 80:80 --name phpmessages_container --rm -v /data b81ba8f89207
+
+
+Agora foi criado um volume anônimo
+Para conferir:
+
+docker volume ls
+
+e
+
+docker inspect phpmessages_container
+
+"Volumes": {   
+    "/data": {}
+},
