@@ -1,0 +1,4 @@
+Volume com apenas permissão de consulta
+  docker run -v <volume>:<data>:ro
+
+ro -> read only
