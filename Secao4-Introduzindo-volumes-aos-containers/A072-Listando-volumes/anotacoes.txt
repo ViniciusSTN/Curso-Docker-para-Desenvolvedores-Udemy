@@ -1,0 +1,3 @@
+listar volumes
+
+docker volume ls
