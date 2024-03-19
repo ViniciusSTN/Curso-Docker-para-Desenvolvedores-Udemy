@@ -1,0 +1,4 @@
+Checar volume
+docker volume inspect <nome>
+
+Teremos acesso ao local que o volume guarda os dados
