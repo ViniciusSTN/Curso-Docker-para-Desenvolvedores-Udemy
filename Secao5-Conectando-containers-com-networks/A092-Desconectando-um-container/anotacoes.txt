@@ -1,0 +1,2 @@
+Desconectar um container da rede
+docker network disconnect <rede> <container>
