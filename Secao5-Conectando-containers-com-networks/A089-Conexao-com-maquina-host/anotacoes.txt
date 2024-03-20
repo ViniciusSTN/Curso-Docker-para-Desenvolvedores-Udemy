@@ -1,0 +1,15 @@
+Conexão com host do docker
+
+Como ip de host: host.docker.internal
+
+arquivo 2_host do projeto 3
+Criou uma rota de POST na imagem e um banco de dados na maquina local
+
+
+Esse trecho do codigo é o que permite fazer conexão com o host docker
+app.config['MYSQL_HOST'] = 'host.docker.internal'
+
+-------------------
+docker build -t flaskhost .
+
+docker run -d -p 5000:5000 --name flaskhost_container --rm flaskexterna
