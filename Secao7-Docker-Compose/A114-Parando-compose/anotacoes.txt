@@ -1,0 +1,2 @@
+parar compose:
+docker compose down
