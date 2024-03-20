@@ -1,0 +1,12 @@
+Docker compose usando wordpress e mysql
+
+Rodar o composer:
+docker compose up       ou
+dokcer-compose up
+
+
+Parar o compose 
+ctrl + c
+
+
+Ir no navegador: http://localhost:80
