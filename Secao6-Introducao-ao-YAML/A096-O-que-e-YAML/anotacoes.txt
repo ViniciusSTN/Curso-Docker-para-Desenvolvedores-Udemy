@@ -1,0 +1,4 @@
+Linguagem de configuração
+-> Docker compose usa YAML
+
+Extensão: yml ou yaml (tanto faz)
