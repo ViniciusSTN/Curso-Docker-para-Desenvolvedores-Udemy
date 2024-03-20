@@ -1,0 +1,10 @@
+Listar redes
+docker network ls
+
+Algumas redes são criadas como padrão de configurações docker
+
+
+Padrão docker:
+c0ac09bd02b8   bridge    bridge    local
+ebeace8cddf1   host      host      local
+5410f608cb73   none      null      local

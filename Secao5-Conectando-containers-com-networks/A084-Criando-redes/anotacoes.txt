@@ -1,0 +1,9 @@
+Criar rede bridge
+docker newtwork create <nome>
+
+Irá criar uma rede padrão bridge
+
+
+Macvlan
+docker network create -d macvlan meumackvlan
+-d -> delimitar

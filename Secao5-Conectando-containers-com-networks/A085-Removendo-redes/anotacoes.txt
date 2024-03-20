@@ -1,0 +1,2 @@
+Remover rede
+docker network rm <nome>
