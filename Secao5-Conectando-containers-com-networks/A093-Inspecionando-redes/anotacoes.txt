@@ -1,0 +1,4 @@
+Inspecionar redes
+docker network inspect <nome>
+
+Data de criação, driver, nome, etc
