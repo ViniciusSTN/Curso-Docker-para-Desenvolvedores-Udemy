@@ -1,0 +1,7 @@
+Projeto docker 3 com python
+
+-------------------
+docker build -t flaskexterna .
+docker run -d -p 5000:5000 --name flaskexterno_container --rm 448b687849c5
+
+Acessar GET http://localhost:5000/ no postman
