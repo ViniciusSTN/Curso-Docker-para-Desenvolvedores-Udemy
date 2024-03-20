@@ -1,0 +1,4 @@
+Rodar multiplos containers
+Apenas um arquivo de configuração
+Multiplos builds e runs
+Projetos maiores
