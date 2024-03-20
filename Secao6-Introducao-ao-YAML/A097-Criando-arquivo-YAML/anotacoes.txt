@@ -1,0 +1,9 @@
+Chave - valor
+
+
+Testar se o yaml que escrevemos é valido:
+
+Instalar:
+pip3 install pyyaml
+
+Executar o script python no projeto 4
