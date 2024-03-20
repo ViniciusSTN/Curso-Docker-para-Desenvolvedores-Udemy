@@ -1,0 +1,3 @@
+Remover todas as redes não utilizadas
+docker network prune
+
