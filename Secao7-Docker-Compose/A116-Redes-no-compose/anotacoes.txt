@@ -1,0 +1,3 @@
+Por padrão vem uma rede básica bridge (aparentemente não mais)
+
+Podemos isolar as redes com a chave networks
