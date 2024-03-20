@@ -1,0 +1,2 @@
+Compose em background, flag:
+    -d
